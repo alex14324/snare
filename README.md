@@ -1,7 +1,5 @@
 SNARE
 =====
-[![Documentation Status](https://readthedocs.org/projects/snare/badge/?version=latest)](http://snare.readthedocs.io/en/latest/?badge=latest)
-[![Build Status](https://travis-ci.org/mushorg/snare.svg?branch=master)](https://travis-ci.org/mushorg/snare)
 
 <b><i>Super Next generation Advanced Reactive honEypot</b></i>
 
@@ -27,13 +25,13 @@ Getting started
 - This was tested with a recent Ubuntu based Linux.
 
 #### Steps to setup
-1. Get SNARE: `git clone https://github.com/mushorg/snare.git` and `cd snare`
+1. Get SNARE: `git clone https://github.com/alex14324/snare.git` and `cd snare`
 2. Install requirements: `sudo pip3 install -r requirements.txt`
 3. Setup snare: `sudo python3 setup.py install`
 3. Clone a page: `sudo clone --target http://example.com`
 4. Run SNARE: `sudo snare --port 8080 --page-dir example.com`
 5. Test: Visit http://localhost:8080/index.html
-6. (Optionally) Have your own [tanner](https://github.com/mushorg/tanner) service running.
+6. (Optionally) Have your own [tanner](https://github.com/alex14324/tanner) service running.
 
 #### Docker build instructions
 1. Change current directory to `snare` project directory
